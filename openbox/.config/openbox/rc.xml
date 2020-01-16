@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Lubuntu-default</name>
+    <name>Bear2</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -57,39 +57,39 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>sans</name>
+      <name>Tamsyn</name>
       <size>8</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>sans</name>
+      <name>Tamsyn</name>
       <size>8</size>
       <!-- font size in points -->
-      <weight>bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuHeader">
-      <name>sans</name>
-      <size>9</size>
+      <name>Tamsyn</name>
+      <size>8</size>
       <!-- font size in points -->
-      <weight>normal</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="MenuItem">
-      <name>sans</name>
-      <size>9</size>
+      <name>Tamsyn</name>
+      <size>8</size>
       <!-- font size in points -->
-      <weight>normal</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
+      <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="ActiveOnScreenDisplay">
@@ -324,17 +324,60 @@
     <!-- Keybindings for running applications -->
     <keybind key="W-e">
       <action name="Execute">
-        <startupnotify>
-          <enabled>true</enabled>
-          <name>Konqueror</name>
-        </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>qterminal</command>
+      </action>
+    </keybind>
+    <!-- rtile -->
+    <keybind key="W-l">
+      <action name="Execute">
+        <command>rtile r</command>
+      </action>
+    </keybind>
+    <keybind key="W-h">
+      <action name="Execute">
+        <command>rtile l</command>
+      </action>
+    </keybind>
+    <keybind key="W-k">
+      <action name="Execute">
+        <command>rtile t</command>
+      </action>
+    </keybind>
+    <keybind key="W-j">
+      <action name="Execute">
+        <command>rtile b</command>
+      </action>
+    </keybind>
+    <keybind key="W-1">
+      <action name="Execute">
+        <command>rtile tl</command>
+      </action>
+    </keybind>
+    <keybind key="W-2">
+      <action name="Execute">
+        <command>rtile tr</command>
+      </action>
+    </keybind>
+    <keybind key="W-3">
+      <action name="Execute">
+        <command>rtile br</command>
+      </action>
+    </keybind>
+    <keybind key="W-4">
+      <action name="Execute">
+        <command>rtile bl</command>
+      </action>
+    </keybind>
+    <!-- rofi -->
+    <keybind key="W-space">
+      <action name="Execute">
+        <command>rofi -show run -matching fuzzy</command>
       </action>
     </keybind>
     <!-- Launch scrot when Print is pressed -->
     <keybind key="Print">
       <action name="Execute">
-        <command>scrot</command>
+        <command>screengrab</command>
       </action>
     </keybind>
   </keyboard>
