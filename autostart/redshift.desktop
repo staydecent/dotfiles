@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=redshift
+Name=redshift
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

@@ -1,0 +1,1 @@
+/home/aunger/.config/fisherman/mono/fish_prompt.fish

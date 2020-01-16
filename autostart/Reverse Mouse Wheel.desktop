@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=xinput -set-prop \\"Logitech USB Optical Mouse\\" \\"libinput Natural Scrolling Enabled\\" 1 
+Name=Reverse Mouse Wheel
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0
+X-LXQt-Need-Tray=true

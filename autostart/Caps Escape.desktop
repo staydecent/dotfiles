@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=setxkbmap -option caps:escape
+Name=Caps Escape
+OnlyShowIn=LXQt;
+Type=Application
+Version=1.0

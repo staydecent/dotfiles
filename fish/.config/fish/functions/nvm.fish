@@ -1,0 +1,1 @@
+/home/aunger/.config/fisherman/nvm/functions/nvm.fish
